@@ -19,7 +19,7 @@ const Stat = ({ weather }) => {
           <img
             src={
               weather.location !== undefined
-                ? `http:${weather.current.condition.icon}`
+                ? `https:${weather.current.condition.icon}`
                 : "--"
             }
             alt=""
@@ -41,7 +41,7 @@ const Stat = ({ weather }) => {
               className="mr-2 h-4"
               viewBox="0 0 11 18"
               version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
+
             >
               <g
                 id="Page-1"
@@ -82,7 +82,6 @@ const Stat = ({ weather }) => {
               className="mr-2 h-4 w-4"
               viewBox="0 0 12 21"
               version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
             >
               <g
                 id="Page-1"
